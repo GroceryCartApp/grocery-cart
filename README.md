@@ -1,15 +1,16 @@
-Grocery Cart website - Restart from zero
+GroceryCart multilingual website
 
-This is a clean real HTML/CSS website.
-It does not use full-page screenshot sections or invisible overlay navigation.
+Upload all files in this ZIP to the GitHub repository root.
 
-Upload all files to the GitHub repository root:
-- index.html
-- styles.css
-- privacy.html
-- README.md
-- screen-list-dark.png
-- screen-list-light.png
-- screen-planner.png
-- screen-recipes.png
-- screen-leftovers.png
+Pages:
+- index.html = English
+- it.html = Italian
+- fr.html = French
+- es.html = Spanish
+- pt.html = Portuguese
+- de.html = German
+
+Notes:
+- App Store badge is intentionally not linked yet.
+- Support email: grocerycart.support@gmail.com
+- Screenshots inside iPhones remain the original screenshots provided by the user.

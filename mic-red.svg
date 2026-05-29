@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <radialGradient id="outerGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(32 32) rotate(90) scale(24)">
+      <stop offset="0.72" stop-color="#FF6B7A" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FF6B7A" stop-opacity="0.28"/>
+    </radialGradient>
+    <linearGradient id="redCircle" x1="32" y1="10" x2="32" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF5A67"/>
+      <stop offset="1" stop-color="#E13A49"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.2" flood-color="#B72636" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <circle cx="32" cy="32" r="24" fill="url(#outerGlow)"/>
+  <g filter="url(#shadow)">
+    <circle cx="32" cy="32" r="19.5" fill="url(#redCircle)"/>
+    <path d="M32 42.8C27.6 42.8 24 39.2 24 34.8V29.8C24 28.8 24.8 28 25.8 28C26.8 28 27.6 28.8 27.6 29.8V34.8C27.6 37.2 29.6 39.2 32 39.2C34.4 39.2 36.4 37.2 36.4 34.8V29.8C36.4 28.8 37.2 28 38.2 28C39.2 28 40 28.8 40 29.8V34.8C40 39.2 36.4 42.8 32 42.8Z" fill="white"/>
+    <rect x="27.8" y="16.8" width="8.4" height="17.8" rx="4.2" fill="white"/>
+    <path d="M32 42.8V47.3" stroke="white" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M27 47.5H37" stroke="white" stroke-width="3.2" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GroceryCart – Lista de la compra por voz para iPhone</title>
+  <meta name="description" content="GroceryCart te ayuda a crear listas de la compra con voz, teclado, recetas, sobras y planner." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header" id="top">
+  <div class="wrap nav">
+    <a class="brand" href="es.html">
+      <img src="logo-grocerycart.png" alt="" />
+      <span>GroceryCart</span>
+    </a>
+    <nav class="nav-links" aria-label="Navigation">
+      <a href="#features">Ventajas</a>
+      <a href="#how">Cómo funciona</a>
+      <a href="#screenshots">Capturas</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="nav-actions">
+      <label class="language">
+        <span>🌐</span>
+        <select onchange="if(this.value) window.location.href=this.value" aria-label="Language">
+          <option value="index.html">English</option>
+<option value="it.html">Italiano</option>
+<option value="fr.html">Français</option>
+<option value="es.html" selected>Español</option>
+<option value="pt.html">Português</option>
+<option value="de.html">Deutsch</option>
+        </select>
+      </label>
+      <button class="store-badge store-badge--nav" type="button" aria-disabled="true">
+        <img src="app-store-badge.png" alt="Download on the App Store" />
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="food-layer food-layer--hero"></div>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="tag">Lista de la compra por voz para iPhone</p>
+        <h1>Tu lista de la compra, <span>hablada o escrita.</span></h1>
+        <p class="lead">GroceryCart te ayuda a crear tu lista rápidamente. Habla de forma natural con el micrófono o escribe manualmente cuando quieras.</p>
+        <div class="pills">
+          <span><img class="mic-icon mic-icon--pill" src="mic-red.svg" alt="" />Voz primero</span>
+          <span>⌨️ Escribe cuando quieras</span>
+          <span>🚫 Sin anuncios</span>
+          <span>👤 Sin cuenta</span>
+          <span>💳 Sin suscripción</span>
+        </div>
+        <button class="store-badge store-badge--hero" type="button" aria-disabled="true">
+          <img src="app-store-badge.png" alt="Download on the App Store" />
+        </button>
+        <p class="note">Las capturas muestran la app en inglés como ejemplo. En la app, interfaz y artículos se localizan en el idioma seleccionado.</p>
+      </div>
+      <div class="hero-phones">
+        <div class="iphone iphone--back">
+          <div class="screen"><img src="screen-list-dark.png" alt="GroceryCart dark mode" /></div>
+        </div>
+        <div class="iphone iphone--front">
+          <div class="screen"><img src="screen-list-light.png" alt="GroceryCart list" /></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="how" id="how">
+    <div class="wrap narrow">
+      <header class="section-head">
+        <p class="tag tag--center">Cómo funciona</p>
+        <h2>Dilo como lo harías en la vida real.</h2>
+        <p>Di algo como “Necesito cuatro plátanos y dos naranjas”. GroceryCart entiende y transforma tus palabras en una lista organizada.</p>
+      </header>
+      <div class="steps">
+        <article class="step">
+          <div class="step-icon mic"><img class="mic-icon mic-icon--step" src="mic-red.svg" alt="" /></div>
+          <h3>1. Voz primero</h3>
+          <p>Toca el micrófono y habla de forma natural. GroceryCart convierte tus palabras en artículos.</p>
+        </article>
+        <span class="arrow">→</span>
+        <article class="step">
+          <div class="step-icon">⌨️</div>
+          <h3>2. Escribe cuando quieras</h3>
+          <p>¿Prefieres escribir? Añade productos manualmente desde la barra de entrada.</p>
+        </article>
+        <span class="arrow">→</span>
+        <article class="step">
+          <div class="step-icon">📤</div>
+          <h3>3. Comparte donde quieras</h3>
+          <p>Exporta a PDF, envía por WhatsApp, comparte por mensaje o guarda la lista.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="food-layer food-layer--recipes"></div>
+    <div class="food-layer food-layer--leftovers"></div>
+    <div class="food-layer food-layer--planner"></div>
+    <div class="wrap">
+      <header class="section-head">
+        <p class="tag tag--center">Ventajas</p>
+        <h2>Todo lo necesario para una compra más sencilla.</h2>
+      </header>
+
+      <article class="feature">
+        <div class="phone-side">
+          <div class="iphone"><div class="screen"><img src="screen-recipes.png" alt="Recipes" /></div></div>
+        </div>
+        <div class="copy-side">
+          <h3>Crea tu lista mientras lees recetas.</h3>
+          <p>Abre tus webs de recetas favoritas, lee ingredientes y añádelos a GroceryCart mientras navegas.</p>
+          <ul>
+            <li>Consulta recetas en cualquier sitio</li>
+            <li>Guarda sitios favoritos</li>
+            <li>Añade ingredientes manos libres</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="feature feature--reverse">
+        <div class="copy-side">
+          <h3>Convierte las sobras en ideas de comidas.</h3>
+          <p>Escribe o dicta lo que ya tienes en la nevera o despensa — pan, tomates, atún o arroz — y encuentra ideas rápidamente.</p>
+          <ul>
+            <li>Usa lo que ya tienes</li>
+            <li>Descubre ideas rápidamente</li>
+            <li>Reduce el desperdicio fácilmente</li>
+          </ul>
+        </div>
+        <div class="phone-side">
+          <div class="iphone"><div class="screen"><img src="screen-leftovers.png" alt="Leftovers" /></div></div>
+        </div>
+      </article>
+
+      <article class="feature">
+        <div class="phone-side">
+          <div class="iphone"><div class="screen"><img src="screen-planner.png" alt="Planner" /></div></div>
+        </div>
+        <div class="copy-side">
+          <h3>Guarda listas y compártelas al instante.</h3>
+          <p>Guarda tus listas de la compra para reutilizarlas cuando quieras. Compártelas por PDF, WhatsApp o mensaje.</p>
+          <ul>
+            <li>Guarda y recarga listas</li>
+            <li>Comparte por PDF, WhatsApp o mensaje</li>
+            <li>Categorías y cantidades organizadas</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="screenshots" id="screenshots">
+    <div class="wrap">
+      <header class="section-head">
+        <p class="tag tag--center">Capturas</p>
+        <h2>Mira GroceryCart en acción.</h2>
+        <p>Las capturas muestran la app en inglés como ejemplo. En la app, interfaz y artículos se localizan en el idioma seleccionado.</p>
+      </header>
+      <div class="gallery">
+        <figure><div class="iphone iphone--small"><div class="screen"><img src="screen-list-light.png" alt="" /></div></div><figcaption>Lista de la compra</figcaption></figure>
+        <figure><div class="iphone iphone--small"><div class="screen"><img src="screen-list-dark.png" alt="" /></div></div><figcaption>Modo oscuro</figcaption></figure>
+        <figure><div class="iphone iphone--small"><div class="screen"><img src="screen-recipes.png" alt="" /></div></div><figcaption>Recetas</figcaption></figure>
+        <figure><div class="iphone iphone--small"><div class="screen"><img src="screen-leftovers.png" alt="" /></div></div><figcaption>Sobras</figcaption></figure>
+        <figure><div class="iphone iphone--small"><div class="screen"><img src="screen-planner.png" alt="" /></div></div><figcaption>Planner</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq" id="faq">
+    <div class="wrap faq-wrap">
+      <header class="section-head">
+        <p class="tag tag--center">FAQ</p>
+        <h2>Preguntas frecuentes</h2>
+        <p>Todo lo que necesitas saber sobre GroceryCart.</p>
+      </header>
+      <div class="faq-list">
+        <details><summary>¿Puedo escribir en lugar de usar el micrófono?<span>+</span></summary><p>Sí. GroceryCart prioriza la voz, pero también puedes escribir manualmente.</p></details>
+        <details><summary>¿Puedo crear una lista mientras leo recetas?<span>+</span></summary><p>Sí. Puedes consultar webs de recetas y añadir ingredientes a la lista.</p></details>
+        <details><summary>¿Puedo encontrar ideas con sobras?<span>+</span></summary><p>Sí. Introduce lo que ya tienes y GroceryCart te ayuda a encontrar ideas.</p></details>
+        <details><summary>¿Necesito una cuenta?<span>+</span></summary><p>No. GroceryCart no requiere cuenta para las funciones principales.</p></details>
+        <details><summary>¿Por qué las capturas están en inglés?<span>+</span></summary><p>Son ejemplos. En la app, interfaz y artículos se localizan en el idioma seleccionado.</p></details>
+      </div>
+      <div class="support">
+        <a href="mailto:grocerycart.support@gmail.com">grocerycart.support@gmail.com</a>
+        <a href="privacy.html">Política de privacidad</a>
+        <a href="#top">Volver arriba</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="final-cta">
+    <div class="food-layer food-layer--final"></div>
+    <div class="wrap">
+      <h2>¿Listo para simplificar la compra?</h2>
+      <p>Gratis. Sin anuncios. Sin cuenta. Solo una lista de la compra más inteligente.</p>
+      <button class="store-badge store-badge--final" type="button" aria-disabled="true">
+        <img src="app-store-badge.png" alt="Download on the App Store" />
+      </button>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <a class="footer-brand" href="#top"><img src="logo-grocerycart.png" alt="" /><span>GroceryCart</span></a>
+    <div class="footer-links">
+      <span>grocerycart.support@gmail.com</span>
+      <a href="privacy.html">Política de privacidad</a>
+      <a href="#top">Volver arriba</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
